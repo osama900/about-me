@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.logo{
+    display: inline-block;
+}
+
+.logo h1{
+    color: chocolate;
+
+    font-size: 30px;
+    margin: 25px;
+    display: inline-block;
+    font-family: Indie Flower;
+    font-weight: bolder;
+
+}
+header nav{
+    margin-right: 30px;
+    float: right;
+    display: inline-block;
+}
+ a{
+    color: chocolate;
+    text-decoration: none;
+}
+ul{
+    display: inline-block;
+}
+ul li{
+    padding: 3px;
+    margin: 25px;
+    display: inline-block;
+    font-family: Indie Flower;
+    font-weight: bolder;
+}
+ul li :hover{
+background-color: rgb(200, 113, 51);
+color: white;
+}
+.profileImg{
+    float: left;
+    display: inline-block;
+}
+
+.profileImg img{
+    width: 200px;
+    border-radius: 100px;
+    display: inline;
+    margin: 10px;
+}
+main{
+    margin-top: 30px;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 150px;
+    
+}
+.osamaDesc{
+    font-size: 25px;
+    font-family: Indie Flower;
+    display: inline;
+}
+article{
+    font-size: 225px;
+    text-align: left;
+    display: inline;
+}
+.titleOne{
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+}
+.titleOne span{
+    font-family: Indie Flower;
+    color: chocolate;
+font-size: 25px;
+font-weight: bolder;    
+}
+footer{
+    text-align: center;
+}
