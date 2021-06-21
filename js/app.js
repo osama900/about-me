@@ -32,7 +32,7 @@ while(gestName == null){
     gestName = prompt(' What\'s Your Name ? ');
 
 }
-alert("nice to meet you" + +" "+gestName );
+alert("nice to meet you"  +" "+gestName );
 //console.log(gestName);
 //console.log(typeof(gestName));
 //console.log("nice to meet you" + gestName);
@@ -123,7 +123,7 @@ let experience = prompt('Do i have (4) apps on Google play store ? ');
 
 
 
-
+alert("it's pleasure to meet you"+ " " + gestName + "\n hope to see you soon and please enjoy in my page ");
 
 
 
