@@ -18,7 +18,7 @@ myName = prompt('What is my name ? \n You can see it on the title  ');
 //console.log(myName);
 myName = myName.toLowerCase();
 //console.log(myName);
-while(myName !="osama"){
+while(myName !="osama" || myName == null){
     myName = prompt(' What\'s My Name ? ');
 
 }
@@ -32,7 +32,7 @@ while(gestName == null){
     gestName = prompt(' What\'s Your Name ? ');
 
 }
-alert("nice to meet you" + gestName );
+alert("nice to meet you" + +" "+gestName );
 //console.log(gestName);
 //console.log(typeof(gestName));
 //console.log("nice to meet you" + gestName);
@@ -43,6 +43,10 @@ alert("nice to meet you" + gestName );
 
 let age = prompt('do you think i\'m 33 years old ? \n answer with y/n or yes/no please ');
 //console.log(typeof(age));
+while(age == null){
+    age = prompt('do you think i\'m 33 years old ? \n answer with y/n or yes/no please ');
+
+}
 
     switch (age.toLowerCase()) {
         case "yes":
@@ -64,10 +68,10 @@ let age = prompt('do you think i\'m 33 years old ? \n answer with y/n or yes/no 
               console.log(age);
         }
         
-//question 4 my favioret app  --------------------
+//question 4 my favorite app  --------------------
   
 
-let favApp = prompt('do you think my favioret app is Youtube \n answer with y/n or yes/no please ');
+let favApp = prompt('do you think my favorite app is Youtube \n answer with y/n or yes/no please ');
 //console.log(typeof(age));
 
     switch (favApp.toLowerCase()) {
