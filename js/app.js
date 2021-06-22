@@ -64,15 +64,13 @@ while(age == null){
              alert('almost guessed i\'m 31 ') ;
         break;
 
-        default:
-              console.log(age);
+        
         }
         
 //question 4 my favorite app  --------------------
   
 
 let favApp = prompt('do you think my favorite app is Youtube \n answer with y/n or yes/no please ');
-//console.log(typeof(age));
 
     switch (favApp.toLowerCase()) {
         case "yes":
@@ -90,8 +88,7 @@ let favApp = prompt('do you think my favorite app is Youtube \n answer with y/n 
              alert('sorry it is ') ;
         break;
 
-        default:
-              console.log(age);
+        
         }
 
 
@@ -99,7 +96,6 @@ let favApp = prompt('do you think my favorite app is Youtube \n answer with y/n 
   
 
 let experience = prompt('Do i have (4) apps on Google play store ? ');
-//console.log(typeof(age));
 
     switch (experience.toLowerCase()) {
         case "yes":
@@ -117,9 +113,47 @@ let experience = prompt('Do i have (4) apps on Google play store ? ');
              alert('sorry i do ') ;
         break;
 
-        default:
-              console.log(age);
+        
         }
+//question 6 fav food  --------------------
+  
+
+let food = prompt('Do i love Maqloubeh ? ');
+
+    switch (food.toLowerCase()) {
+        case "yes":
+        case 'y':
+            alert('You are right ') ;
+       break;
+        
+        case 'no':
+        case 'n':
+             alert('sorry i do') ;
+        break;
+
+        
+        }
+
+
+        //question 7 fav car  --------------------
+
+let favCar = prompt('Do you think my favorite car is Tesla ? ');
+
+    switch (favCar.toLowerCase()) {
+        case "yes":
+        case 'y':
+            alert('You are right it is tesla ') ;
+       break;
+        
+        case 'no':
+        case 'n':
+             alert('sorry it is') ;
+        break;
+
+        
+        }
+
+
 
 
 
