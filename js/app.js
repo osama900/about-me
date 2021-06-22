@@ -1,4 +1,4 @@
-`use strict`
+`use strict`;
 
 let feel;
 feel = confirm('H! I\'m Osama welcome to my page \n Feeeeeel GOOD ?');
