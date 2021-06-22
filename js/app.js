@@ -1,6 +1,7 @@
 `use strict`;
 
 let feel;
+let score = 0;
 feel = confirm('H! I\'m Osama welcome to my page \n Feeeeeel GOOD ?');
 
 // console.log(feel);
@@ -57,11 +58,14 @@ while(age == null){
         break;
 
         case 'no':
-             alert('almost guessed i\'m 31 ') ;
+            score++;
+             alert('right i\'m 31 ') ;
         break;
 
         case 'n':
-             alert('almost guessed i\'m 31 ') ;
+            score++;
+
+             alert('right guessed i\'m 31 ') ;
         break;
 
         
@@ -74,9 +78,13 @@ let favApp = prompt('do you think my favorite app is Youtube \n answer with y/n 
 
     switch (favApp.toLowerCase()) {
         case "yes":
+            score++;
+
             alert('You are right ') ;
        break;
-        case 'y':
+        case 'y':      
+              score++;
+
             alert('You are right ') ;
         break;
 
@@ -99,9 +107,13 @@ let experience = prompt('Do i have (4) apps on Google play store ? ');
 
     switch (experience.toLowerCase()) {
         case "yes":
+            score++;
+
             alert('You are right ') ;
        break;
         case 'y':
+            score++;
+
             alert('You are right ') ;
         break;
 
@@ -123,6 +135,8 @@ let food = prompt('Do i love Maqloubeh ? ');
     switch (food.toLowerCase()) {
         case "yes":
         case 'y':
+            score++;
+
             alert('You are right ') ;
        break;
         
@@ -142,6 +156,8 @@ let favCar = prompt('Do you think my favorite car is Tesla ? ');
     switch (favCar.toLowerCase()) {
         case "yes":
         case 'y':
+            score++;
+
             alert('You are right it is tesla ') ;
        break;
         
@@ -152,12 +168,61 @@ let favCar = prompt('Do you think my favorite car is Tesla ? ');
         }
 
         
+const myNum = 25;
+let gessNumber;
+
+//console.log(gessNumber);
+
+for (let i =0 ; i <5 ; i++){
+    //console.log(i);
+    gessNumber = parseInt(prompt('please insert a number '));
+    if(gessNumber == myNum ){
+        //console.log('your guess correct ');
+        alert('your guess correct the number is 25');
+        score++;
+
+        break;
+    }
+    else if (gessNumber > myNum){
+        //console.log('too high ! ');
+        alert('too heigh !')
+        continue;
+    }
+    else{
+        alert('too low !')
+        //console.log('too low ! ');
+        continue;
+    }
+}
+alert(' number is 25');
+
+
+
+let living = ['jordan','karak','aqaba'];
+
+for (let x =0 ; x <6 ; x++){
+     let city=prompt('which city do you think i live in ',' not amman :)')
+     for (let xx = 0 ; xx < living.length ; xx++)
+        if (city == living[xx]){
+            alert('you guessed the city');
+            score++;
+
+            x=6;
+            //break;
+        }
+        
+       
+    //console.log(living);
+    //console.log(city);
+
+}
 
 
 
 
 
-alert("it's pleasure to meet you"+ " " + gestName + "\n hope to see you soon and please enjoy in my page ");
+
+alert("it's pleasure to meet you"+ " " + gestName + 'and scored '+ " " + score + " "+"out of 7"+ "\n hope to see you soon and please enjoy in my page ");
 
 
 
