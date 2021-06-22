@@ -149,9 +149,9 @@ let favCar = prompt('Do you think my favorite car is Tesla ? ');
         case 'n':
              alert('sorry it is') ;
         break;
+        }
 
         
-        }
 
 
 
