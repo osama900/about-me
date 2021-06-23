@@ -14,6 +14,7 @@ if(feel == true){
 
 
 //question 1 what is my name ---------------------------
+function osama(){
 let myName;
 myName = prompt('What is my name ? \n You can see it on the title  ');
 //console.log(myName);
@@ -23,9 +24,10 @@ while(myName !="osama" || myName == null){
     myName = prompt(' What\'s My Name ? ');
 
 }
-
-
+}
+osama();
 // question 2 what is guest name ---------------------------------
+function guest_name(){
 let gestName;
 gestName = prompt(' What\'s Your Name ? ');
 
@@ -37,11 +39,11 @@ alert("nice to meet you"  +" "+gestName );
 //console.log(gestName);
 //console.log(typeof(gestName));
 //console.log("nice to meet you" + gestName);
+}
+guest_name();
 
-
-
+function my_age(){
 //question 3 how old am i --------------------
-
 let age = prompt('do you think i\'m 33 years old ? \n answer with y/n or yes/no please ');
 //console.log(typeof(age));
 while(age == null){
@@ -70,9 +72,9 @@ while(age == null){
 
         
         }
-        
+    }my_age();   
+   function fav_app(){     
 //question 4 my favorite app  --------------------
-  
 
 let favApp = prompt('do you think my favorite app is Youtube \n answer with y/n or yes/no please ');
 
@@ -98,11 +100,11 @@ let favApp = prompt('do you think my favorite app is Youtube \n answer with y/n 
 
         
         }
-
+    }fav_app();
 
 //question 5 experience app  --------------------
   
-
+function my_exp(){
 let experience = prompt('Do i have (4) apps on Google play store ? ');
 
     switch (experience.toLowerCase()) {
@@ -127,6 +129,9 @@ let experience = prompt('Do i have (4) apps on Google play store ? ');
 
         
         }
+    }my_exp();
+
+    function fav_food(){
 //question 6 fav food  --------------------
   
 
@@ -148,7 +153,9 @@ let food = prompt('Do i love Maqloubeh ? ');
         
         }
 
+    }fav_food();
 
+    function fav_car(){
         //question 7 fav car  --------------------
 
 let favCar = prompt('Do you think my favorite car is Tesla ? ');
@@ -167,10 +174,11 @@ let favCar = prompt('Do you think my favorite car is Tesla ? ');
         break;
         }
 
-        
+    }fav_car();   
+
 const myNum = 25;
 let gessNumber;
-
+function guss_number(){
 //console.log(gessNumber);
 
 for (let i =0 ; i <4 ; i++){
@@ -196,8 +204,9 @@ for (let i =0 ; i <4 ; i++){
 }
 alert(' number is 25');
 
+}guss_number();
 
-
+function where_living(){
 let living = ['jordan','karak','aqaba'];
 
 for (let x =0 ; x <6 ; x++){
@@ -216,7 +225,7 @@ for (let x =0 ; x <6 ; x++){
     //console.log(city);
 
 }
-
+}where_living();
 
 
 
