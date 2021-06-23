@@ -233,5 +233,3 @@ for (let x =0 ; x <6 ; x++){
 
 alert("it's pleasure to meet you"+ " " + gestName + 'and scored '+ " " + score + " "+"out of 7"+ "\n hope to see you soon and please enjoy in my page ");
 
-
-
