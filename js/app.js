@@ -80,16 +80,12 @@ let favApp = prompt('do you think my favorite app is Youtube \n answer with y/n 
 
     switch (favApp.toLowerCase()) {
         case "yes":
+        case 'y': 
             score++;
 
             alert('You are right ') ;
        break;
-        case 'y':      
-              score++;
-
-            alert('You are right ') ;
-        break;
-
+        
         case 'no':
              alert('sorry it is') ;
         break;
