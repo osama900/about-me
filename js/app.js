@@ -173,7 +173,7 @@ let gessNumber;
 
 //console.log(gessNumber);
 
-for (let i =0 ; i <5 ; i++){
+for (let i =0 ; i <4 ; i++){
     //console.log(i);
     gessNumber = parseInt(prompt('please insert a number '));
     if(gessNumber == myNum ){
