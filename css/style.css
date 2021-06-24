@@ -39,11 +39,12 @@ color: white;
 }
 .profileImg{
     float: left;
-    display: inline-block;
+    display: inline;
 }
 
 .profileImg img{
     width: 200px;
+    height: 200px;
     border-radius: 100px;
     display: inline;
     margin: 10px;
@@ -53,8 +54,6 @@ main{
     text-align: center;
     width: 80%;
     margin-left: 10%;
-    margin-bottom: 150px;
-    
 }
 .osamaDesc{
     font-size: 25px;
@@ -66,7 +65,6 @@ article{
     display: inline;
 }
 .titleOne{
-    margin-bottom: 10px;
     display: block;
     text-align: left;
 }
@@ -87,6 +85,29 @@ footer{
 
 }
 .titleOne span{
-    margin-top: 30px;
+    margin-top: 40px;
     display: block;
+}
+#movieImg{
+
+    float: right;
+    display: inline;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+.footer{
+    background-color:#D2691E;
+}
+.footer span{
+    color: white;
+    display: block;
+    padding-bottom: 20px;
+}
+#footer-li li{
+    forced-color-adjust: white;
+    font-size: 25px;
+}
+#footer-li li a{
+    color: white;
 }
